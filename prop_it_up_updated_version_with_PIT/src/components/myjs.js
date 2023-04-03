@@ -17,7 +17,7 @@ class Card extends Component {
         this.setState({
             currentAge : this.state.currentAge - 1
         });
-    }
+    } // this is not include in the assignment
     render() {
         const {firstName , lastName , age, hairColor} = this.props;
         return <div>
@@ -25,7 +25,7 @@ class Card extends Component {
             <p>Age : {this.state.currentAge}</p>
             <p>Hair Color : {hairColor}</p>
             <button onClick={this.buttonClick}>Birthday Button for {firstName} + 1</button>
-            <button onClick={this.decreaseClick}>Birthday Button for {firstName} - 1</button>
+            <button onClick={this.decreaseClick}>Birthday Button for {firstName} - 1</button> // this one is not in the assignment so dont worry about this function
 
         </div>;
         
