@@ -1,0 +1,11 @@
+.input {
+    margin-right: 50px;
+    width: 40px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
