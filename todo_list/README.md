@@ -1,3 +1,7 @@
+This is the Todo list core assignment, I did it differently , and this is without the bonuses
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
