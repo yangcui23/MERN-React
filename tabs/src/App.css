@@ -1,0 +1,44 @@
+.App {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px black soild;
+}
+
+.tab {
+  margin-left: 1px;
+  width: 33%;
+
+  display:inline-block;
+
+}
+.tab button {
+  width: 200px;
+  height: 80px;
+  font-size: xx-large;
+  background-color: #faedcd;
+}
+
+.tabs {
+  margin: 0 auto;
+  width: 600px;
+
+}
+
+.tab-content {
+  width: 496px;
+  height: 200px;
+  border: 1px black solid;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fefae0;
+  transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.tab button:hover {
+  background-color:#bc6c25;
+  transition: 0.7s;
+}
+
