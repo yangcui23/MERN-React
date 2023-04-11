@@ -10,23 +10,16 @@ const Display = (props) => {
     
     return (
         <div>
+            <h1>{data.name}</h1>
             { category === "planets"?
                 <>
-                <h1>{data.name}</h1>
-
-
                 <p>Climate : {data.climate}</p> 
                 <p>Terrain : {data.terrain}</p>
                 <p>Surface Water : {data.surface_water}</p>
                 <p>Population : {data.population}</p>
-                </>
-                
-                
-                
-                
+                </>                                                              
                 : 
                 <>
-                <h1>{data.name}</h1>
                 <p>Height :{data.height}</p>
                 <p>Mass :{data.mass}</p>
                 <p>Gender :{data.gender}</p>
