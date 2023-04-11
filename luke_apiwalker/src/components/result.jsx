@@ -11,29 +11,12 @@ const Results = (props) => {
     const [responseData, setResponseData] = useState('');
 
 
-    const { search } = props;
-
-
-
-
     useEffect(() => {
         axios.get(`http://swapi.dev/api/${category}/${id}/`)
             .then((response) => {
-                console.log('hello')
-                
-                if (category === "planets") {
-                    
-                    setResponseData(response.data);
-                    console.log(response.data);
-
-
-
-
-                } 
-                else if (category === "people") {
-                    setResponseData(response.data)
-
-                }
+                console.log('hello')                   
+                setResponseData(response.data);
+                             
                 })
             .catch((error) => {
 
