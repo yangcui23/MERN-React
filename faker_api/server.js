@@ -18,10 +18,10 @@ const createUser = () => {
 
 const createCompany = () => {
   const newComp = {
-    company: faker.company.name(),
+    company: faker.company.companyName(),
     companyId: faker.datatype.uuid(),
     address: {
-      street: faker.address.street(),
+      street: faker.address.streetAddress(),
       city: faker.address.city(),
       state: faker.address.state(),
       zipcode: faker.address.zipCode(),
